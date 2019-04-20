@@ -1,0 +1,26 @@
+
+      *{
+        margin:0; padding:0; 
+        border:0; outline:0; 
+        font-size:100%; 
+        background:transparent;
+        list-style:none;
+        font-weight:normal;
+        font-style:normal;
+      }
+
+      a {
+        text-decoration: none;
+        color:#000;
+      }
+      a:hover{
+        text-decoration: none ;
+        color:#000;
+      }
+      button {
+        cursor: pointer;
+      }
+      img {
+        border: 0px;
+        max-width: 100%;
+    }

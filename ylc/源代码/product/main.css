@@ -1,0 +1,115 @@
+﻿@charset "utf-8";
+html, body{color: #666;font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1", "Arial", "Helvetica", "sans-serif";}
+.clearfix:before, .clearfix:after{content: "\200b";display: block;height: 0;overflow:hidden}
+.clearfix:after,.clear{clear: both;}
+.clearfix,.clear{*zoom:1;height: 0;overflow: hidden;clear: both;}
+a{color: #666;text-decoration: none;}
+a:hover{color:#a05cbc;}
+.wrap{margin: 0 auto;padding-top:54px;width: 1150px;}
+.hide{display: none;}
+.y-f,.y-f a,a.y-f{color:#a05cbc}
+.say-list li dt a{color:#000;}
+.say-list li dt a:hover{color:#a05cbc;}
+a.user_name{color:#a05cbc;}
+.r-f,.r-f a,a.r-f{color:#f00}
+.y-f a:hover,a.y-f:hover,.r-f a:hover,a.r-f:hover{color: #086cd2;}
+.b-f a:hover,a.b-f:hover{color:#666}
+.hr_10{height:10px; clear:both}
+.hr_20{height:20px;clear:both}
+.hr_30{height:30px;clear:both}
+.line{height:1px;background:#e8e8e8;border:0}
+ /*回到顶部*/ 
+ #tbox{width:47px; height:73px; float:right; position:fixed;}
+/*解决IE6下不兼容 position:fixed 的问题*/
+#jianyi{width:47px; height:25px; background:url(../images/suggest.png) no-repeat; position:absolute; bottom:0px; cursor:pointer}
+#gotop{width:47px; height:47px; background:url(../images/top01.png) no-repeat; position:absolute; top:0px; display:none; cursor:pointer}
+#jianyi:hover{background:url(../images/suggest.png) no-repeat 0px -26px;}
+#gotop:hover{background:url(../images/top02.png) no-repeat;} 
+/**主内容元素*/ 
+.content{margin-top:0px; min-height:400px; padding-top: 5px;} 
+.wrap_810{width:837px; float:left; overflow:hidden;} 
+.side_300{width:300px; float:right; overflow:hidden;} 
+.column{margin-top:10px; clear:both;overflow: hidden;padding-left:0 !important;}
+.column h1.title,.column h2.title,.column h3.title,.column div.title,.remn div.title{height: 30px;line-height: 30px;position:relative; display:block; clear:both} 
+.column h1.title{border-bottom: #ddd solid 1px;/*margin-bottom: 10px;*/}
+.myun a{overflow: hidden;clear: both;display: block;padding-bottom: 8px;}
+.column h1.title1,.column div.title1,.column h2.title1{border-bottom: none;} 
+.column h1.title span,.column div.title span{font-size:14px; color:#666; margin-left:10px} 
+.column h1.title span.y-f{color:#ff7700; margin-left:5px} 
+.column h1.title strong,.column h2.title strong,.column h3.title strong,.column div.title strong,.remn div.title strong{font-size:16px; color:#a05cbc; font-weight:bold} 
+.column h1.title .more,.column div.title .more{float:right; font-weight:normal; font-size:12px; line-height:19px; position:relative; top:9px}
+.caption{display: block; font-size: 16px; color: #555; font-weight: bold; height: 50px; line-height: 25px; padding-top: 5px; text-align: left;} .caption a{color:#555} .caption a:hover{color: #9d3ebd} /**通用侧栏内容元素*/ /**达人说*/ .item dt{font-size:14px; margin-bottom:5px} .item dd p{line-height:180%; margin-bottom:10px; overflow:hidden;} .darenshuo{position:relative} .darenshuo .photo{float:left; width:50px; margin-right:10px;} .darenshuo .photo img{border-radius:50%; -webkit-border-radius:50%; -moz-border-radius:50%;} .column_con .last{margin-bottom:0px} .user_name{padding-left:16px; background:url(../images/user_name.png) no-repeat left 50%} /**达人*/ .daren{margin-bottom:20px} .daren .photo{float:left; width:120px; margin-right:10px}
+/**关于我们*/
+.column_con #weixin{width:300px; height:320px; background:url(../images/side_weixin.jpg) no-repeat}
+.column_con #weixin p{font-size:15px; color:#086cd2; margin-left:30px}
+.column_con #weibo{margin-top:20px; padding-top:20px; border-top:solid 1px #e7e7e7}
+.column_con #weibo h1{font-size:16px; color:#086cd2; font-weight:bold; background:url(../images/weibo.jpg) no-repeat left 50%; padding-left:33px; margin-bottom:5px}
+.column_con #weibo p{font-size:14px;}
+/**产品列表*/ #pro-list{}
+.prolist{width:415px; float:left; height:405px; margin-right:15px; margin-bottom:15px;background-color:#fff;position: relative;}
+.prolist .prolist_pic{position:relative; height:237px;}
+.prolist .prolist_pic img{width:415px; height:237px;}
+.prolist .prolist_pic .caption{height:55px;line-height:150%;bottom:70px;padding-top:10px}
+.prolist_info div.money{position: absolute;left: 5px;right: 0;bottom: 0;}
+.zprolist{height:430px;}
+.zprolist .caption{height:50px !important;}
+.zprolist .prolist_info div.money{position: inherit;}
+.mark-type{background:url("../images/title_background.png") no-repeat scroll 0 0; color: #fff; font-size: 14px; font-style: normal; height: 35px; left: 0; line-height: 35px; padding-right: 7px; position: absolute; text-align: center; top: -6px; width: 71px; z-index: 300;}
+.meiyou{height:40px;line-height:40px;padding-bottom:10px;text-align:left;font-size:18px}
+.prolist .prolist_info{background:#fff; padding:0 5px; font-size:14px;position:relative;height:162px}
+.prolist .prolist_info h5{font-size: 12px;text-align: center;}
+.prolist .prolist_info h5 span{display: inline-block;text-align: left;}
+.prolist .prolist_info p.caption,.prolist .prolist_info p.caption a{font-size: 16px;overflow: hidden; text-overflow: ellipsis; white-space: nowrap;height: 25px;line-height: 25px;}
+.prolist .prolist_info p{line-height:150%; margin:7px 0; clear:both;font-size: 12px;}
+.prolist .prolist_info p.datime{margin:0; color:#8b3da5;}
+.prolist .prolist_info ul{float:left}
+.prolist .prolist_info .price{color:#ff5106;font-size:16px;margin-right:10px}
+.prolist .prolist_info .price strong{font-size:25px;font-weight:bold}
+.prolist .prolist_info .num{color:#999;text-decoration:line-through;}
+.pay_btn{height:40px; line-height:40px; background-color: #ff8a00; font-size:16px; color:#fff; position:relative; cursor:pointer; display: inline-block;}
+.ico_p{background:url(../images/ico_p.png) no-repeat left 16px;padding-left:18px}
+.ico_p1{background:url(../images/ico_p1.png) no-repeat left 16px;}
+.ico_t{background:url(../images/ico_t.png) no-repeat left 50%;padding-left:18px}
+.ico_t1{background:url(../images/ico_t1.png) no-repeat left 50%;}
+/*页面当前位置**/
+.head_crumb{background:#f5f5f5; line-height:40px; border-bottom:solid 1px #c6c6c6}
+.head_crumb span{margin:0 5px; font-family:\5b8b\4f53,sans-serif}
+/* 页面宽 */
+.wrap_980,.wrap_900{margin: 12px auto 0;width: 1150px;}
+.wrap_640{width:830px; float:left; overflow:hidden; padding-bottom:50px}
+/*******404*/
+.p404{margin:90px 0;margin-left:280px;height:212px;padding-left:280px;background:url(../images/404.png) no-repeat 0 0;}
+.p404 b{font-size:68px; overflow:hidden; clear:both; display:block; text-align:left; color:#ac43cf;}
+.p404 h2{color:#ac43cf;padding-top:8px;margin-bottom:10px;font-size:26px;line-height:26px;}
+.p404 div{font-size:14px;}
+.p404 div a{color:#ac43cf;text-decoration:underline;}
+.sub-title{margin-bottom:10px;position:relative;}
+.sub-title img{position:relative;bottom:-2px;display:block;margin-bottom:2px;}
+.pd_02 img{width:810px; height:460px;}
+.pd_01 img{width:810px; height:100px;}
+.pictureg{padding-top:10px;overflow:hidden;}
+.pictureg dt{height:30px; line-height:30px;text-align:left; overflow:hidden; clear:both;}
+.pictureg dd{float:left; margin-right:20px;}
+.pictureg dd span{display:block; text-align:center;}
+.pictureg dd.one img{width:100px; height:100px;}
+.pictureg dd.two img{width:60px; height:60px; margin-top:40px;}
+.pictureg dd.three img{width:30px; height:30px; margin-top:70px;}
+@media screen and (max-width: 1024px){.foot_left ul li#link{width:640px; margin-right:0}#home_fxb .hot,#home_fxb .hot img{width:530px;}#home_fxb ul,#home_fxb ul li,#home_fxb ul li img{width:240px;}.header{overflow:hidden;}.wrap{width:auto;}.header #header_left{padding-left:5px;}.header_right{float:right; padding-right:10px;}
+ /*.content{width:1007px; margin:0 auto;}*/
+ /*.content{width:1003px\9; margin:0 auto;}*/
+/*.wrap_810{width:780px;}*/
+ /*.side_300{width:215px;}*/
+ #pro_hot .prolist{width:780px;}
+ /*#pro-list{width:780px;}*/
+ /*.prolist{width:385px; margin-right:10px;}*/
+ /*.prolist .prolist_pic img{width:385px;}*/
+ /*.prolist .prolist_info{padding:10px 10px;}*/
+ .lvying{height:123px; overflow:hidden; display:block; margin:0 auto;}
+ .lvying img{width:1150px; height:123px;}
+ .foot_left{width:895px;}
+ .foot_left ul li{margin-right:12px;}
+ .foot_right{width:100px; height:100px;}
+ /*.column_con #weixin{width:200px; background-size:90% 80%; background-position:0px 50px;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../images/side_weixin.jpg', sizingMethod='scale');}*/
+ .column_con #weixin p{font-size:12px;}.pd_02 img{width:780px; height:460px;}.pd_01 img{width:780px; height:100px;}.item dt{font-size:14px;}#home_fxb{width:780px;}
+}
+@media screen and (min-width: 320px) and (max-width: 480px){.header,.wrap,.banner,.footer{width:1000px;}.advting img{width:100%;}}

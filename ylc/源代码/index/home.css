@@ -1,0 +1,138 @@
+﻿@charset "utf-8";
+/*风向标*/
+#home_fxb{
+	width:810px;
+	height:315px;
+	position:relative;
+	overflow:hidden
+}
+#home_fxb .hot{
+	float:left;
+	width:540px;
+	height:315px;
+	position:relative
+}
+#home_fxb .hot img{
+	width:540px;
+	height:315px
+}
+#home_fxb ul{
+	float:right;
+	width:250px;
+	height:315px;
+	position:relative;
+}
+#home_fxb ul li{
+	margin-bottom:15px;
+	position:relative;
+	width:250px;
+	height:150px
+}
+#home_fxb ul li img{
+	width:250px;
+	height:150px
+}
+
+
+/*推荐产品*/
+  #pro_hot{
+	    height:310px;
+		margin-bottom:20px;
+   }
+   #pro_hot .prolist{
+	   width:810px;
+	   position:relative;
+	    height:310px;
+	   margin-bottom:20px;
+	   clear:both;
+	   
+   }
+   #pro_hot .prolist .prolist_pic{
+	   overflow:hidden;
+	   height:310px;
+   }
+   #pro_hot .prolist .prolist_pic img{
+	  width:810px;
+	   height:486px;
+	   margin-top:-80px
+   }
+   #pro_hot .prolist .prolist_info{
+	   width:270px;
+	    position: absolute;
+		right:0;
+		top:0;
+		height:280px;
+	  z-index: 12;
+	  text-shadow: none;
+	  padding:15px;
+
+	  color: #fff;
+	  background: #000;
+		background: rgba(0,0,0,0.7);
+		*background:#000;
+		background: #000000\0;
+		filter: alpha(Opacity=70);
+   }
+   #pro_hot .prolist .prolist_info h1 a{
+	   font-weight: bold;
+	   font-size:18px;
+	  
+	   color: #fff;
+   }
+   #pro_hot .prolist .prolist_info h1{
+    margin-bottom:10px;
+   }
+   #pro_hot .prolist .prolist_info .pay_btn,#pro_hot .prolist .prolist_info ul{
+	   float:none
+   }
+    #pro_hot .prolist .prolist_info .pay_btn{
+	   line-height:40px;
+	   height:40px
+   }
+   #pro_hot .prolist .prolist_info h1 a:hover{
+	   color: #d0e7ff
+   }
+   #pro_hot .prolist .prolist_pic .mark-type{
+		right:299px;
+	
+   }
+   #pro_hot .prolist .mark-hot{
+	    width:65px;
+	   height:60px;
+	   background:url(../images/ico_r.png) no-repeat top left;
+	    position: absolute;
+		padding-top:5px;
+		top:-4px;
+		left:0;
+		color:#fff;
+		font-size:14px;
+		display:block;
+		text-align:center;
+		text-indent:-5px
+   }
+   
+   
+     .page_more{
+	   clear:both;
+	   width:100%;
+	   text-align:center;
+	   padding-top:10px
+	
+   }
+   .page_more a{
+	background: #f5f5f5;
+	-moz-border-radius: 3px;      /* Gecko browsers */
+	-webkit-border-radius: 3px;   /* Webkit browsers */
+	border-radius: 3px;            /* W3C syntax */
+	padding:8px 30px;
+	font-size:18px;
+	font-weight:bold;
+	 border:solid #e7e7e7 1px;
+   }
+@media screen and (max-width: 1024px){
+	#home_fxb .hot,#home_fxb .hot img{width:530px;}
+	#home_fxb ul,#home_fxb ul li,#home_fxb ul li img{width:240px;}
+    #pro_hot .prolist,#home_fxb{
+	   width:780px;
+	  }	
+}
