@@ -8,6 +8,7 @@
  const cors = require('cors'); 
  //引入路由器
  const Index=require("./routes/index.router")
+ const product=require("./routes/product.router")
  //创建web服务器
 var server = express();
 //配置session 
@@ -20,7 +21,7 @@ server.use(session({
 server.listen(3000);
  //启用cors跨域，只允许http://127.0.0.1:8080的请求访问该服务端
 server.use(cors({
-  "origin":"http://127.0.0.1:5500",
+  "origin":"http://127.0.0.1:5501",
    credentials:true
 })); 
  //配置body-parser中间件 
@@ -28,7 +29,8 @@ server.use(bodyParser.urlencoded({
   extended:false
 }));
  //托管静态资源到public下
-// server.use(express.static('public'));
+server.use(express.static('public'));
 /*使用路由器来管理路由*/
 server.use("/index",Index);
+// server.use("/product",product);
 console.log("服务器测试:启动成功")

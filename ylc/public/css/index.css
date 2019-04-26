@@ -266,37 +266,7 @@ body  h2 a:hover{
   color: #ff924c;
   font-weight: normal;
 }
-.money_02 a.shouy {
-  background-color: #cbcbcb;
-  cursor: not-allowed;
-  -webkit-box-shadow: 1px 2px 3px rgba(224,224,224,.5);
-  -moz-box-shadow: 1px 2px 3px rgba(224,224,224,.5);
-  -ms-box-shadow: 1px 2px 3px rgba(224,224,224,.5);
-  box-shadow: 1px 2px 3px rgba(224,224,224,.5);
-}
-.money_02 a {
-  /* width: 103px; */
-  /* height: 38px; */
-  line-height: 38px;
-  text-align: center;
-  font-size: 16px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  background-color: #a05cbc;
-  -webkit-box-shadow: 1px 2px 3px rgba(178,178,178,.75);
-  -moz-box-shadow: 1px 2px 3px rgba(178,178,178,.75);
-  -ms-box-shadow: 1px 2px 3px rgba(178,178,178,.75);
-  box-shadow: 1px 2px 3px rgba(178,178,178,.75);
-  color: #fff;
-  display: block;
-  transition: background 0.5s;
-  -webkit-transition: background 0.5s;
-}
-.money_02 a:hover{
-  color:#fff;
-}
-
+ 
 .contain .tuwidth  img , hgroup img {
   height: 239px;
   width:100%;

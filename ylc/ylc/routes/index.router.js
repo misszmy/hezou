@@ -3,11 +3,10 @@ const router=express.Router();
 const pool=require("../pool")
 //app.js: app.use("/index",Index)
 router.get("/",(req,res)=>{
-  var sql=`select * from xz_index_product where seq_recommended!=0 order by seq_recommended`;
+  var sql=`select id,headline,pic,href,label,rlabel,title,lately,snumber,site,route,price,oprice,exist,pid from ylc_index `;
   pool.query(sql,[],(err,result)=>{
     if(err) console.log(err);
     res.send(result);
-    console.log(result)
   });
 })
 module.exports=router;

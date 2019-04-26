@@ -83,7 +83,7 @@
   font-size: 14px;
   padding-right: 20px;
   color:#555;
-    font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1", "Arial", "Helvetica", "sans-serif";
+    font: 14px/1.5 "\5FAE\8F6F\96C5\9ED1", "Arial", "Helvetica", "sans-serif";
 }
 #app-header article div:last-child a:hover{
   color:#9d3ebd;
@@ -106,4 +106,30 @@
 #app-header nav ul li a:hover{
  background-color: #601479;
  text-decoration: none;
+}
+#app-header nav ul li{
+  position: relative;
+}
+nav li em{
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -11px;
+}
+nav li em.hot {
+  background: url(../img/index/hot_xin.png)no-repeat;
+  right: 42px;
+}
+
+nav li em.sale {
+  background: url(../img/index/sale.png)no-repeat;
+  right: 40px;
+}
+li em.new {
+  right: 43px;
+  background: url(../img/index/r01.png)no-repeat;
+}
+.header-color{
+  background:#601479;
 }
